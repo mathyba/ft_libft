@@ -19,7 +19,7 @@ SRCS_LISTS = ft_ilstadd.c ft_ilstnew.c ft_slstadd.c ft_slstnew.c ft_lstadd.c ft_
 
 SRCS_MEM = ft_bzero.c ft_memalloc.c ft_memccpy.c ft_memchr.c ft_memcmp.c ft_memcpy.c ft_memdel.c ft_memmove.c ft_memset.c ft_strtabdel.c
 
-SRCS_OUT = $(addprefix ft_printf/, $(FTPRINTF_SRCS)) ft_display_error.c ft_mdisplay.c ft_print_inttab.c ft_printstrarr.c ft_putchar.c ft_putchar_fd.c ft_putcnl.c ft_putendl.c ft_putendl_fd.c ft_putnbr.c ft_putnbrnl.c ft_putnbr_fd.c ft_putstr.c ft_putstr_fd.c
+SRCS_OUT = $(addprefix ft_printf/srcs/, $(FTPRINTF_SRCS)) ft_display_error.c ft_mdisplay.c ft_print_inttab.c ft_printstrarr.c ft_putchar.c ft_putchar_fd.c ft_putcnl.c ft_putendl.c ft_putendl_fd.c ft_putnbr.c ft_putnbrnl.c ft_putnbr_fd.c ft_putstr.c ft_putstr_fd.c
 
 SRCS_NUM = ft_abs.c ft_base_to_deci.c ft_beyond_limiti.c ft_dabs.c ft_dsqrt.c ft_endien_btl.c ft_fabs.c ft_ispowtwo.c ft_get_strtabsize.c ft_llabs.c ft_lllen.c ft_llpow.c ft_maxint.c ft_nblen.c ft_nbwords.c ft_pow.c ft_sort_int_tab.c ft_sort_inttab_nodup.c ft_strarrlen.c ft_swap.c ft_swapd.c
 
@@ -57,7 +57,6 @@ $(NAME) : $(HEAD) $(OBJ) Makefile $(TAGS)
 	@echo "\033[22;35mbuilding $(NAME)...\033[0m"
 	@ar rc $(NAME) $(OBJ)
 	@ranlib $(NAME)
-	@printf "\033[22;35mbuilding.....[ %d%% ]            \r" $(PERCENT)
 	@echo ">>> \033[01;32m$(NAME) READY !\n\033[0m"
 
 all: $(NAME)
