@@ -1,0 +1,395 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFF_SIZE	includes/ft_printf.h	23;"	d
+BUFF_SIZE	includes/get_next_line.h	21;"	d
+CFLAGS	Makefile	/^CFLAGS = -Wall -Werror -Wextra$/;"	m
+CONV_TAB	includes/ft_printf.h	24;"	d
+CURFD	includes/get_next_line.h	25;"	d
+FTPRINTF_SRCS	Makefile	/^FTPRINTF_SRCS = add_prefix.c add_sign.c add_to_buffer.c ft_strncpyi.c apply_specs.c apply_specs_cs.c colors.c ft_printbit.c ft_itoa_base_cust.c itoa_cust_var.c unicode.c attributes_tools.c read_until_arg.c ft_printf.c init_or_clear.c read_attributes.c read_until_arg.c getarg_int.c getarg_nomod.c getarg_uns.c nblen.c negative_arg.c ft_bigc.c ft_bigo.c ft_bigu.c ft_c.c ft_i.c ft_o.c ft_u.c ft_bigd.c ft_bigs.c ft_bigx.c ft_d.c ft_noconv.c ft_p.c ft_s.c ft_x.c ft_n.c ft_b.c mng_nullarg.c ftp_abs.c ftp_isalpha.c ftp_isdigit.c ftp_maxint.c ftp_nblen.c ftp_strcstr.c ftp_strequ.c ftp_strlen.c ftp_strnequ.c ftp_toupper.c ftp_strcmp.c ftp_strncmp.c$/;"	m
+FT_PRINTF_H	includes/ft_printf.h	14;"	d
+GET_NEXT_LINE_H	includes/get_next_line.h	14;"	d
+H	includes/ft_printf.h	/^	NOMOD, H, HH, L, LL, Z, J$/;"	e	enum:e_modificateurs
+HEAD	Makefile	/^HEAD = $(addprefix includes\/, ft_printf.h get_next_line.h libft.h)$/;"	m
+HH	includes/ft_printf.h	/^	NOMOD, H, HH, L, LL, Z, J$/;"	e	enum:e_modificateurs
+J	includes/ft_printf.h	/^	NOMOD, H, HH, L, LL, Z, J$/;"	e	enum:e_modificateurs
+L	includes/ft_printf.h	/^	NOMOD, H, HH, L, LL, Z, J$/;"	e	enum:e_modificateurs
+LCPY	includes/get_next_line.h	24;"	d
+LIBFT_H	includes/libft.h	14;"	d
+LIBFT_HEADDIR	Makefile	/^LIBFT_HEADDIR = includes\/$/;"	m
+LL	includes/ft_printf.h	/^	NOMOD, H, HH, L, LL, Z, J$/;"	e	enum:e_modificateurs
+MINUS	includes/ft_printf.h	/^	POUND, ZERO, MINUS, SPACE, PLUS$/;"	e	enum:e_flags
+NAME	Makefile	/^NAME = libft.a$/;"	m
+NOMOD	includes/ft_printf.h	/^	NOMOD, H, HH, L, LL, Z, J$/;"	e	enum:e_modificateurs
+OBJ	Makefile	/^OBJ = $(addprefix srcs\/, $(patsubst %.c, %.o, $(SRCS))) $/;"	m
+PLUS	includes/ft_printf.h	/^	POUND, ZERO, MINUS, SPACE, PLUS$/;"	e	enum:e_flags
+POUND	includes/ft_printf.h	/^	POUND, ZERO, MINUS, SPACE, PLUS$/;"	e	enum:e_flags
+SEP	includes/get_next_line.h	23;"	d
+SPACE	includes/ft_printf.h	/^	POUND, ZERO, MINUS, SPACE, PLUS$/;"	e	enum:e_flags
+SRCS	Makefile	/^SRCS = $(addprefix chars\/, $(SRCS_CHARS)) \\$/;"	m
+SRCS_CHARS	Makefile	/^SRCS_CHARS = ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isgraph.c ft_islower.c ft_isprint.c ft_ispunct.c ft_isspace.c ft_isupper.c ft_isxdigit.c ft_tolower.c ft_toupper.c$/;"	m
+SRCS_CONV	Makefile	/^SRCS_CONV = ft_atoi.c ft_atoi_index.c ft_itoa.c ft_itoa_mod.c ft_uitoa.c ft_lltoa.c$/;"	m
+SRCS_LISTS	Makefile	/^SRCS_LISTS = ft_ilstadd.c ft_ilstnew.c ft_slstadd.c ft_slstnew.c ft_lstadd.c ft_lstaddend.c ft_lstdel.c ft_lstdelone.c ft_lstget_last.c ft_lstiter.c ft_lstmap.c ft_lstnew.c ft_lstnewf.c ft_treeadd.c ft_newnode.c ft_destroy_tree.c ft_treedo_order.c$/;"	m
+SRCS_MEM	Makefile	/^SRCS_MEM = ft_bzero.c ft_memalloc.c ft_memccpy.c ft_memchr.c ft_memcmp.c ft_memcpy.c ft_memdel.c ft_memmove.c ft_memset.c ft_strtabdel.c$/;"	m
+SRCS_NUM	Makefile	/^SRCS_NUM = ft_abs.c ft_base_to_deci.c ft_beyond_limiti.c ft_dabs.c ft_dsqrt.c ft_endien_btl.c ft_fabs.c ft_ispowtwo.c ft_get_strtabsize.c ft_llabs.c ft_lllen.c ft_llpow.c ft_maxint.c ft_nblen.c ft_nbwords.c ft_pow.c ft_sort_int_tab.c ft_sort_inttab_nodup.c ft_strarrlen.c ft_swap.c ft_swapd.c$/;"	m
+SRCS_OUT	Makefile	/^SRCS_OUT = $(addprefix ft_printf\/, $(FTPRINTF_SRCS)) ft_display_error.c ft_mdisplay.c ft_print_inttab.c ft_printstrarr.c ft_putchar.c ft_putchar_fd.c ft_putcnl.c ft_putendl.c ft_putendl_fd.c ft_putnbr.c ft_putnbrnl.c ft_putnbr_fd.c ft_putstr.c ft_putstr_fd.c$/;"	m
+SRCS_STR	Makefile	/^SRCS_STR = get_next_line.c ft_strcat.c ft_strccat.c ft_strchr.c ft_strchri.c ft_strcjoin.c ft_strclr.c ft_strcmp.c ft_strcpy.c ft_strcstr.c ft_strdel.c ft_strdup.c ft_strdupf.c ft_strequ.c ft_striter.c ft_striteri.c ft_strjoin.c ft_strjoinf.c ft_strlcat.c ft_strlen.c ft_strmap.c ft_strmapi.c ft_strnbc.c ft_strnbci.c ft_strncat.c ft_strnccat.c ft_strncmp.c ft_strncpy.c ft_strndup.c ft_strnequ.c ft_strnew.c ft_strnstr.c ft_strrchr.c ft_strrep.c ft_strsplit.c ft_strstr.c ft_strsub.c ft_strsubf.c ft_strtrim.c$/;"	m
+SRCS_VEC	Makefile	/^SRCS_VEC = ft_44maddd.c ft_44maddrows.c ft_44mcpy.c ft_44minit.c ft_44mrow_addd.c ft_44mswap_rows.c ft_44mtrxmtrx_mul.c ft_44mtranspose.c ft_4fvcpy.c ft_4fvinit.c ft_4ivcpy.c ft_4ivinit.c ft_4mtrxvect_mul.c ft_4vcpy.c ft_4vectvect_mul.c ft_4vinit.c ft_get4mcol.c ft_get4mrow.c ft_getmval.c ft_swap4v.c$/;"	m
+TAGS	Makefile	/^TAGS = .\/tags$/;"	m
+Z	includes/ft_printf.h	/^	NOMOD, H, HH, L, LL, Z, J$/;"	e	enum:e_modificateurs
+ZERO	includes/ft_printf.h	/^	POUND, ZERO, MINUS, SPACE, PLUS$/;"	e	enum:e_flags
+arg	includes/ft_printf.h	/^	union u_type	arg;$/;"	m	struct:s_env	typeref:union:s_env::u_type
+base	includes/ft_printf.h	/^	int				base;$/;"	m	struct:s_env
+base_len	srcs/numbers/ft_base_to_deci.c	/^int				base_len(unsigned int num, int base)$/;"	f
+buf	includes/ft_printf.h	/^	unsigned char	buf[BUFF_SIZE];$/;"	m	struct:s_env
+buff	includes/get_next_line.h	/^	char			*buff;$/;"	m	struct:s_file
+c	includes/ft_printf.h	/^	char					c;$/;"	m	union:u_type
+cc	includes/ft_printf.h	/^	int				cc;$/;"	m	struct:s_env
+color_chars	includes/ft_printf.h	/^	int				color_chars;$/;"	m	struct:s_env
+content	includes/libft.h	/^	void			*content;$/;"	m	struct:s_lbtree
+content	includes/libft.h	/^	void			*content;$/;"	m	struct:s_list
+content_size	includes/libft.h	/^	size_t			content_size;$/;"	m	struct:s_list
+d	includes/ft_printf.h	/^	double					d;$/;"	m	union:u_type
+e_flags	includes/ft_printf.h	/^enum			e_flags$/;"	g
+e_modificateurs	includes/ft_printf.h	/^enum			e_modificateurs$/;"	g
+err_ind	includes/ft_printf.h	/^	int				err_ind;$/;"	m	struct:s_env
+error	includes/ft_printf.h	/^	int				error;$/;"	m	struct:s_env
+f	includes/ft_printf.h	/^	float					f;$/;"	m	union:u_type
+fd	includes/get_next_line.h	/^	int				fd;$/;"	m	struct:s_file
+field	includes/ft_printf.h	/^	int				field;$/;"	m	struct:s_env
+fill_field	includes/ft_printf.h	/^	int				fill_field;$/;"	m	struct:s_env
+fill_prec	includes/ft_printf.h	/^	int				fill_prec;$/;"	m	struct:s_env
+fill_tab	srcs/strings/ft_strsplit.c	/^static char	**fill_tab(char **tab, char *str, size_t nb_words, int c)$/;"	f	file:
+flags	includes/ft_printf.h	/^	unsigned char	flags;$/;"	m	struct:s_env
+ft_44maddd	srcs/vectors_matrices/ft_44maddd.c	/^void	ft_44maddd(double (*m)[4][4], double val)$/;"	f
+ft_44maddrows	srcs/vectors_matrices/ft_44maddrows.c	/^void	ft_44maddrows(double (*m)[4][4], int row_dest, int row_add)$/;"	f
+ft_44mcpy	srcs/vectors_matrices/ft_44mcpy.c	/^void		ft_44mcpy(double (*dest)[4][4], double (src)[4][4])$/;"	f
+ft_44minit	srcs/vectors_matrices/ft_44minit.c	/^void		ft_44minit(double (*m)[4][4], int val)$/;"	f
+ft_44mrow_addd	srcs/vectors_matrices/ft_44mrow_addd.c	/^void	ft_44mrow_addd(double (*m)[4][4], int row, double val)$/;"	f
+ft_44mswap_rows	srcs/vectors_matrices/ft_44mswap_rows.c	/^void	ft_44mswap_rows(double (*m)[4][4], int r1, int r2)$/;"	f
+ft_44mtranspose	srcs/vectors_matrices/ft_44mtranspose.c	/^void		ft_44mtranspose(double (*m)[4][4])$/;"	f
+ft_44mtrxmtrx_mul	srcs/vectors_matrices/ft_44mtrxmtrx_mul.c	/^void	ft_44mtrxmtrx_mul(double (*dest)[4][4], double m1[4][4],$/;"	f
+ft_4fvcpy	srcs/vectors_matrices/ft_4fvcpy.c	/^void		ft_4fvcpy(t_4fvect *dest, t_4fvect src)$/;"	f
+ft_4fvinit	srcs/vectors_matrices/ft_4fvinit.c	/^void	ft_4fvinit(t_4fvect *v, float x, float y, float z)$/;"	f
+ft_4ivcpy	srcs/vectors_matrices/ft_4ivcpy.c	/^void		ft_4ivcpy(t_4ivect *dest, t_4ivect src)$/;"	f
+ft_4ivinit	srcs/vectors_matrices/ft_4ivinit.c	/^void	ft_4ivinit(t_4ivect *v, int x, int y, int z)$/;"	f
+ft_4mtrxvect_mul	srcs/vectors_matrices/ft_4mtrxvect_mul.c	/^t_4vect		ft_4mtrxvect_mul(double (*m)[4][4], t_4vect *ver)$/;"	f
+ft_4vcpy	srcs/vectors_matrices/ft_4vcpy.c	/^void		ft_4vcpy(t_4vect *dest, t_4vect src)$/;"	f
+ft_4vectvect_mul	srcs/vectors_matrices/ft_4vectvect_mul.c	/^double		ft_4vectvect_mul(t_4vect hor, t_4vect ver)$/;"	f
+ft_4vinit	srcs/vectors_matrices/ft_4vinit.c	/^void	ft_4vinit(t_4vect *v, double x, double y, double z)$/;"	f
+ft_abs	srcs/numbers/ft_abs.c	/^size_t		ft_abs(int n)$/;"	f
+ft_add_prefix_hex	srcs/output/ft_printf/add_prefix.c	/^void	ft_add_prefix_hex(t_env *env)$/;"	f
+ft_add_prefix_oct	srcs/output/ft_printf/add_prefix.c	/^void	ft_add_prefix_oct(t_env *env)$/;"	f
+ft_add_prefix_ptr	srcs/output/ft_printf/add_prefix.c	/^void	ft_add_prefix_ptr(t_env *env)$/;"	f
+ft_add_prefix_uns	srcs/output/ft_printf/add_prefix.c	/^void	ft_add_prefix_uns(t_env *env)$/;"	f
+ft_addsign_nozero	srcs/output/ft_printf/add_sign.c	/^void	ft_addsign_nozero(t_env *env)$/;"	f
+ft_addsign_wzero	srcs/output/ft_printf/add_sign.c	/^void	ft_addsign_wzero(t_env *env)$/;"	f
+ft_addtobuf	srcs/output/ft_printf/add_to_buffer.c	/^void	ft_addtobuf(t_env *env, char c, int times)$/;"	f
+ft_addtobuf_field	srcs/output/ft_printf/add_to_buffer.c	/^void	ft_addtobuf_field(t_env *env, char c, int times)$/;"	f
+ft_addtobuf_prec	srcs/output/ft_printf/add_to_buffer.c	/^void	ft_addtobuf_prec(t_env *env, char c, int times)$/;"	f
+ft_addtobuf_switch	srcs/output/ft_printf/add_to_buffer.c	/^void	ft_addtobuf_switch(t_env *env, int times)$/;"	f
+ft_apply_specs_char	srcs/output/ft_printf/apply_specs_cs.c	/^void	ft_apply_specs_char(t_env *env)$/;"	f
+ft_apply_specs_hex	srcs/output/ft_printf/apply_specs.c	/^void			ft_apply_specs_hex(t_env *env)$/;"	f
+ft_apply_specs_int	srcs/output/ft_printf/apply_specs.c	/^void			ft_apply_specs_int(t_env *env)$/;"	f
+ft_apply_specs_oct	srcs/output/ft_printf/apply_specs.c	/^void			ft_apply_specs_oct(t_env *env)$/;"	f
+ft_apply_specs_ptr	srcs/output/ft_printf/apply_specs.c	/^void			ft_apply_specs_ptr(t_env *env)$/;"	f
+ft_apply_specs_str	srcs/output/ft_printf/apply_specs_cs.c	/^void	ft_apply_specs_str(t_env *env)$/;"	f
+ft_apply_specs_uns	srcs/output/ft_printf/apply_specs.c	/^void			ft_apply_specs_uns(t_env *env)$/;"	f
+ft_apply_specs_wcs	srcs/output/ft_printf/apply_specs_cs.c	/^void	ft_apply_specs_wcs(t_env *env)$/;"	f
+ft_atoi	srcs/conversion/ft_atoi.c	/^int			ft_atoi(const char *nptr)$/;"	f
+ft_atoi_index	srcs/conversion/ft_atoi_index.c	/^int			ft_atoi_index(unsigned char *str, int *count)$/;"	f
+ft_b	srcs/output/ft_printf/ft_b.c	/^void	ft_b(t_env *env, char *format, va_list ap)$/;"	f
+ft_base_to_deci	srcs/numbers/ft_base_to_deci.c	/^unsigned int	ft_base_to_deci(unsigned int num, int base)$/;"	f
+ft_beyond_limiti	srcs/numbers/ft_beyond_limiti.c	/^int				ft_beyond_limiti(char *str)$/;"	f
+ft_bigc	srcs/output/ft_printf/ft_bigc.c	/^void	ft_bigc(t_env *env, char *format, va_list ap)$/;"	f
+ft_bigd	srcs/output/ft_printf/ft_bigd.c	/^void	ft_bigd(t_env *env, char *format, va_list ap)$/;"	f
+ft_bigo	srcs/output/ft_printf/ft_bigo.c	/^void	ft_bigo(t_env *env, char *format, va_list ap)$/;"	f
+ft_bigs	srcs/output/ft_printf/ft_bigs.c	/^void		ft_bigs(t_env *env, char *format, va_list ap)$/;"	f
+ft_bigu	srcs/output/ft_printf/ft_bigu.c	/^void	ft_bigu(t_env *env, char *format, va_list ap)$/;"	f
+ft_bigx	srcs/output/ft_printf/ft_bigx.c	/^void	ft_bigx(t_env *env, char *format, va_list ap)$/;"	f
+ft_bzero	srcs/memory/ft_bzero.c	/^void	ft_bzero(void *s, size_t n)$/;"	f
+ft_c	srcs/output/ft_printf/ft_c.c	/^void	ft_c(t_env *env, char *format, va_list ap)$/;"	f
+ft_check_and_mask	srcs/output/ft_printf/unicode.c	/^static int			ft_check_and_mask(t_env *env, int *n, int *bytes)$/;"	f	file:
+ft_check_color	srcs/output/ft_printf/colors.c	/^int			ft_check_color(t_env *env, char *str, va_list ap)$/;"	f
+ft_check_list	srcs/output/ft_printf/colors.c	/^static int	ft_check_list(t_env *env, char *colors[], char *codes[], char *str)$/;"	f	file:
+ft_check_output	srcs/output/ft_printf/colors.c	/^static int	ft_check_output(t_env *env, unsigned char **c, char *s, va_list ap)$/;"	f	file:
+ft_clear_form	srcs/output/ft_printf/init_or_clear.c	/^int			ft_clear_form(t_env *env)$/;"	f
+ft_compare	srcs/strings/ft_strnstr.c	/^static char	*ft_compare(char *haystack, char *needle, size_t len)$/;"	f	file:
+ft_convert	srcs/output/ft_printf/ft_printf.c	/^static int	ft_convert(void (*tab[128])(t_env *env, char *format, va_list ap),$/;"	f	file:
+ft_convert_wc	srcs/output/ft_printf/ft_bigs.c	/^void		ft_convert_wc(t_env *env, int len)$/;"	f
+ft_d	srcs/output/ft_printf/ft_d.c	/^void	ft_d(t_env *env, char *format, va_list ap)$/;"	f
+ft_dabs	srcs/numbers/ft_dabs.c	/^double	ft_dabs(double num)$/;"	f
+ft_destroy_tree	srcs/lists/ft_destroy_tree.c	/^void	ft_destroy_tree(t_lbtree *tree)$/;"	f
+ft_display_error	srcs/output/ft_display_error.c	/^int		ft_display_error(char *msg)$/;"	f
+ft_dsqrt	srcs/numbers/ft_dsqrt.c	/^double		ft_dsqrt(double num)$/;"	f
+ft_endien_btl	srcs/numbers/ft_endien_btl.c	/^size_t		ft_endien_btl(size_t valbe)$/;"	f
+ft_endn	srcs/output/ft_printf/ft_printf.c	/^int			ft_endn(t_env *env, unsigned char *str)$/;"	f
+ft_fabs	srcs/numbers/ft_fabs.c	/^float		ft_fabs(float num)$/;"	f
+ft_get4mcol	srcs/vectors_matrices/ft_get4mcol.c	/^t_4vect		ft_get4mcol(double m[4][4], int col)$/;"	f
+ft_get4mrow	srcs/vectors_matrices/ft_get4mrow.c	/^t_4vect		ft_get4mrow(double m[4][4], int row)$/;"	f
+ft_get_strtabsize	srcs/numbers/ft_get_strtabsize.c	/^int	ft_get_strtabsize(char **str)$/;"	f
+ft_getmval	srcs/vectors_matrices/ft_getmval.c	/^double		ft_getmval(double m[4][4], int row, int col)$/;"	f
+ft_i	srcs/output/ft_printf/ft_i.c	/^void	ft_i(t_env *env, char *format, va_list ap)$/;"	f
+ft_ilistnew	srcs/lists/ft_ilstnew.c	/^t_ilist		*ft_ilistnew(int val)$/;"	f
+ft_ilstadd	srcs/lists/ft_ilstadd.c	/^void		ft_ilstadd(t_ilist **alst, t_ilist *new)$/;"	f
+ft_init_fttab	srcs/output/ft_printf/init_or_clear.c	/^void		ft_init_fttab($/;"	f
+ft_inth	srcs/output/ft_printf/getarg_int.c	/^void	ft_inth(t_env *env, va_list ap)$/;"	f
+ft_inthh	srcs/output/ft_printf/getarg_int.c	/^void	ft_inthh(t_env *env, va_list ap)$/;"	f
+ft_intj	srcs/output/ft_printf/getarg_int.c	/^void	ft_intj(t_env *env, va_list ap)$/;"	f
+ft_intl	srcs/output/ft_printf/getarg_int.c	/^void	ft_intl(t_env *env, va_list ap)$/;"	f
+ft_intllz	srcs/output/ft_printf/getarg_int.c	/^void	ft_intllz(t_env *env, va_list ap)$/;"	f
+ft_intnone	srcs/output/ft_printf/getarg_nomod.c	/^void	ft_intnone(t_env *env, va_list ap)$/;"	f
+ft_is_flag	srcs/output/ft_printf/attributes_tools.c	/^int		ft_is_flag(unsigned char c)$/;"	f
+ft_is_mod	srcs/output/ft_printf/attributes_tools.c	/^int		ft_is_mod(unsigned char c)$/;"	f
+ft_isalnum	srcs/chars/ft_isalnum.c	/^int		ft_isalnum(int c)$/;"	f
+ft_isalpha	srcs/chars/ft_isalpha.c	/^int		ft_isalpha(int c)$/;"	f
+ft_isascii	srcs/chars/ft_isascii.c	/^int		ft_isascii(int c)$/;"	f
+ft_isdigit	srcs/chars/ft_isdigit.c	/^int		ft_isdigit(int c)$/;"	f
+ft_isgraph	srcs/chars/ft_isgraph.c	/^int	ft_isgraph(int c)$/;"	f
+ft_islower	srcs/chars/ft_islower.c	/^int	ft_islower(int c)$/;"	f
+ft_ispowtwo	srcs/numbers/ft_ispowtwo.c	/^int		ft_ispowtwo(int n)$/;"	f
+ft_isprint	srcs/chars/ft_isprint.c	/^int		ft_isprint(int c)$/;"	f
+ft_ispunct	srcs/chars/ft_ispunct.c	/^int	ft_ispunct(int c)$/;"	f
+ft_isspace	srcs/chars/ft_isspace.c	/^int		ft_isspace(int c)$/;"	f
+ft_isupper	srcs/chars/ft_isupper.c	/^int	ft_isupper(int c)$/;"	f
+ft_isxdigit	srcs/chars/ft_isxdigit.c	/^int	ft_isxdigit(int c)$/;"	f
+ft_itoa	srcs/conversion/ft_itoa.c	/^char	*ft_itoa(int n)$/;"	f
+ft_itoa_base_cust	srcs/output/ft_printf/ft_itoa_base_cust.c	/^void		ft_itoa_base_cust(t_env *env, unsigned char *str, int num)$/;"	f
+ft_itoa_mod	srcs/conversion/ft_itoa_mod.c	/^void		ft_itoa_mod(char str[], int num)$/;"	f
+ft_llabs	srcs/numbers/ft_llabs.c	/^long long		ft_llabs(long long n)$/;"	f
+ft_lllen	srcs/numbers/ft_lllen.c	/^size_t		ft_lllen(long long n)$/;"	f
+ft_llnblen	srcs/output/ft_printf/nblen.c	/^int		ft_llnblen(long long num, int base)$/;"	f
+ft_llpow	srcs/numbers/ft_llpow.c	/^long long	ft_llpow(long long n, int pow)$/;"	f
+ft_lltoa	srcs/conversion/ft_lltoa.c	/^char	*ft_lltoa(long long n)$/;"	f
+ft_lltoa_base_cust	srcs/output/ft_printf/itoa_cust_var.c	/^void	ft_lltoa_base_cust(t_env *env, unsigned char *s, long long int num)$/;"	f
+ft_lstadd	srcs/lists/ft_lstadd.c	/^void	ft_lstadd(t_list **alst, t_list *new)$/;"	f
+ft_lstaddend	srcs/lists/ft_lstaddend.c	/^void	ft_lstaddend(t_list **alst, t_list *new)$/;"	f
+ft_lstdel	srcs/lists/ft_lstdel.c	/^void	ft_lstdel(t_list **alst, void (*del)(void *, size_t))$/;"	f
+ft_lstdelone	srcs/lists/ft_lstdelone.c	/^void	ft_lstdelone(t_list **alst, void (*del)(void *, size_t))$/;"	f
+ft_lstget_last	srcs/lists/ft_lstget_last.c	/^t_list	*ft_lstget_last(t_list *lst)$/;"	f
+ft_lstiter	srcs/lists/ft_lstiter.c	/^void	ft_lstiter(t_list *lst, void (*f)(t_list *elem))$/;"	f
+ft_lstmap	srcs/lists/ft_lstmap.c	/^t_list	*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))$/;"	f
+ft_lstnew	srcs/lists/ft_lstnew.c	/^t_list	*ft_lstnew(void const *content, size_t content_size)$/;"	f
+ft_lstnewf	srcs/lists/ft_lstnewf.c	/^t_list	*ft_lstnewf(void const *content, size_t content_size)$/;"	f
+ft_ltoa_base_cust	srcs/output/ft_printf/itoa_cust_var.c	/^void	ft_ltoa_base_cust(t_env *env, unsigned char *str, long int num)$/;"	f
+ft_maxint	srcs/numbers/ft_maxint.c	/^int		ft_maxint(int a, int b)$/;"	f
+ft_mdisplay	srcs/output/ft_mdisplay.c	/^void		ft_mdisplay(double (*m)[4][4])$/;"	f
+ft_memalloc	srcs/memory/ft_memalloc.c	/^void	*ft_memalloc(size_t size)$/;"	f
+ft_memccpy	srcs/memory/ft_memccpy.c	/^void	*ft_memccpy(void *dst, const void *src, int c, size_t n)$/;"	f
+ft_memchr	srcs/memory/ft_memchr.c	/^void		*ft_memchr(const void *s, int c, size_t n)$/;"	f
+ft_memcmp	srcs/memory/ft_memcmp.c	/^int		ft_memcmp(const void *s1, const void *s2, size_t n)$/;"	f
+ft_memcpy	srcs/memory/ft_memcpy.c	/^void		*ft_memcpy(void *dst, const void *src, size_t n)$/;"	f
+ft_memdel	srcs/memory/ft_memdel.c	/^void	ft_memdel(void **ap)$/;"	f
+ft_memmove	srcs/memory/ft_memmove.c	/^void	*ft_memmove(void *dst, const void *src, size_t len)$/;"	f
+ft_memset	srcs/memory/ft_memset.c	/^void				*ft_memset(void *str, int c, size_t len)$/;"	f
+ft_mng_flags	srcs/output/ft_printf/attributes_tools.c	/^void	ft_mng_flags(t_env *env)$/;"	f
+ft_mng_negative_arg	srcs/output/ft_printf/negative_arg.c	/^void	ft_mng_negative_arg(t_env *env, long long int *num)$/;"	f
+ft_mng_nullarg	srcs/output/ft_printf/ft_itoa_base_cust.c	/^static void	ft_mng_nullarg(t_env *env, int *num)$/;"	f	file:
+ft_mng_nullarg	srcs/output/ft_printf/ft_s.c	/^static void	ft_mng_nullarg(t_env *env, int *n)$/;"	f	file:
+ft_mng_unicode_err	srcs/output/ft_printf/unicode.c	/^static int			ft_mng_unicode_err(t_env *env, int bytes)$/;"	f	file:
+ft_n	srcs/output/ft_printf/ft_n.c	/^void	ft_n(t_env *env, char *format, va_list ap)$/;"	f
+ft_nblen	srcs/numbers/ft_nblen.c	/^size_t		ft_nblen(int n, int base)$/;"	f
+ft_nbwords	srcs/numbers/ft_nbwords.c	/^size_t		ft_nbwords(char *str, int sep, int i)$/;"	f
+ft_newnode	srcs/lists/ft_newnode.c	/^t_lbtree	*ft_newnode(void *content, int content_size)$/;"	f
+ft_noconv	srcs/output/ft_printf/ft_noconv.c	/^void			ft_noconv(t_env *env, char *format, va_list ap)$/;"	f
+ft_o	srcs/output/ft_printf/ft_o.c	/^void	ft_o(t_env *env, char *format, va_list ap)$/;"	f
+ft_p	srcs/output/ft_printf/ft_p.c	/^void	ft_p(t_env *env, char *format, va_list ap)$/;"	f
+ft_pow	srcs/numbers/ft_pow.c	/^int		ft_pow(int n, int pow)$/;"	f
+ft_print_intarr	srcs/output/ft_print_inttab.c	/^void		ft_print_intarr(int *tab, int len)$/;"	f
+ft_printbit	srcs/output/ft_printf/ft_printbit.c	/^void	ft_printbit(t_env *env, unsigned int n, int size)$/;"	f
+ft_printf	srcs/output/ft_printf/ft_printf.c	/^int			ft_printf(const char *format, ...)$/;"	f
+ft_printstrarr	srcs/output/ft_printstrarr.c	/^void		ft_printstrarr(char **arr)$/;"	f
+ft_putchar	srcs/output/ft_putchar.c	/^void		ft_putchar(int c)$/;"	f
+ft_putchar_fd	srcs/output/ft_putchar_fd.c	/^void	ft_putchar_fd(int c, int fd)$/;"	f
+ft_putcnl	srcs/output/ft_putcnl.c	/^void	ft_putcnl(char c)$/;"	f
+ft_putendl	srcs/output/ft_putendl.c	/^void	ft_putendl(char *s)$/;"	f
+ft_putendl_fd	srcs/output/ft_putendl_fd.c	/^void	ft_putendl_fd(char const *s, int fd)$/;"	f
+ft_putendl_uns	srcs/output/ft_putendl_uns.c	/^void	ft_putendl_uns(unsigned char *s)$/;"	f
+ft_putinmask	srcs/output/ft_printf/unicode.c	/^static unsigned int	ft_putinmask(unsigned int n, int bytes)$/;"	f	file:
+ft_putnbr	srcs/output/ft_putnbr.c	/^void	ft_putnbr(int n)$/;"	f
+ft_putnbr_fd	srcs/output/ft_putnbr_fd.c	/^void	ft_putnbr_fd(int n, int fd)$/;"	f
+ft_putnbrnl	srcs/output/ft_putnbrnl.c	/^void	ft_putnbrnl(int n)$/;"	f
+ft_putstr	srcs/output/ft_putstr.c	/^void	ft_putstr(char *str)$/;"	f
+ft_putstr_fd	srcs/output/ft_putstr_fd.c	/^void	ft_putstr_fd(char const *s, int fd)$/;"	f
+ft_putwchar	srcs/output/ft_printf/unicode.c	/^unsigned int		ft_putwchar(t_env *env, int n)$/;"	f
+ft_read_field	srcs/output/ft_printf/read_attributes.c	/^static void	ft_read_field(t_env *env, char **str)$/;"	f	file:
+ft_read_flags	srcs/output/ft_printf/read_attributes.c	/^static int	ft_read_flags(t_env *env, char **str)$/;"	f	file:
+ft_read_mod	srcs/output/ft_printf/read_attributes.c	/^static void	ft_read_mod(t_env *env, char **str)$/;"	f	file:
+ft_read_precision	srcs/output/ft_printf/read_attributes.c	/^static void	ft_read_precision(t_env *env, char **str)$/;"	f	file:
+ft_read_specs	srcs/output/ft_printf/read_attributes.c	/^int			ft_read_specs(t_env *env, char **str)$/;"	f
+ft_read_until_arg	srcs/output/ft_printf/read_until_arg.c	/^int		ft_read_until_arg(t_env *env, unsigned char **s2, va_list ap)$/;"	f
+ft_reset_color	srcs/output/ft_printf/colors.c	/^int			ft_reset_color(t_env *env)$/;"	f
+ft_reset_index	srcs/output/ft_printf/ft_printf.c	/^void		ft_reset_index(t_env *env)$/;"	f
+ft_s	srcs/output/ft_printf/ft_s.c	/^void		ft_s(t_env *env, char *format, va_list ap)$/;"	f
+ft_setmask	srcs/output/ft_printf/unicode.c	/^static unsigned int	ft_setmask(unsigned int n, int bytes)$/;"	f	file:
+ft_setzero	srcs/output/ft_printf/init_or_clear.c	/^void		ft_setzero(unsigned char str[], int len, char c)$/;"	f
+ft_slstadd	srcs/lists/ft_slstadd.c	/^void	ft_slstadd(t_slist **alst, t_slist *new)$/;"	f
+ft_slstnew	srcs/lists/ft_slstnew.c	/^t_slist		*ft_slstnew(char *str)$/;"	f
+ft_sort_int_tab	srcs/numbers/ft_sort_int_tab.c	/^void	ft_sort_int_tab(int *tab, size_t size)$/;"	f
+ft_sort_inttab_nodup	srcs/numbers/ft_sort_inttab_nodup.c	/^int		ft_sort_inttab_nodup(int *tab, size_t size)$/;"	f
+ft_split_buff	srcs/strings/get_next_line.c	/^static char	*ft_split_buff(char *str, int option)$/;"	f	file:
+ft_strarrlen	srcs/numbers/ft_strarrlen.c	/^int		ft_strarrlen(char **str)$/;"	f
+ft_strcapitalize	srcs/output/ft_printf/attributes_tools.c	/^void	ft_strcapitalize(unsigned char *str)$/;"	f
+ft_strcat	srcs/strings/ft_strcat.c	/^char	*ft_strcat(char *s1, const char *s2)$/;"	f
+ft_strccat	srcs/strings/ft_strccat.c	/^char	*ft_strccat(char *s1, const char *s2, char c)$/;"	f
+ft_strchr	srcs/strings/ft_strchr.c	/^char	*ft_strchr(const char *s, int c)$/;"	f
+ft_strchri	srcs/strings/ft_strchri.c	/^int		ft_strchri(const char *s, int c, int i)$/;"	f
+ft_strcjoin	srcs/strings/ft_strcjoin.c	/^char	*ft_strcjoin(char const *s1, char const *s2, char c)$/;"	f
+ft_strclr	srcs/strings/ft_strclr.c	/^void	ft_strclr(char *s)$/;"	f
+ft_strcmp	srcs/strings/ft_strcmp.c	/^int		ft_strcmp(const char *s1, const char *s2)$/;"	f
+ft_strcpy	srcs/strings/ft_strcpy.c	/^char		*ft_strcpy(char *dst, const char *src)$/;"	f
+ft_strcpyi_buf	srcs/output/ft_printf/ft_strncpyi.c	/^void	ft_strcpyi_buf(t_env *env, unsigned char src[], int *index)$/;"	f
+ft_strcstr	srcs/strings/ft_strcstr.c	/^int		ft_strcstr(char *str, char *chars)$/;"	f
+ft_strdel	srcs/strings/ft_strdel.c	/^void		ft_strdel(char **as)$/;"	f
+ft_strdup	srcs/strings/ft_strdup.c	/^char	*ft_strdup(const char *src)$/;"	f
+ft_strdupf	srcs/strings/ft_strdupf.c	/^char	*ft_strdupf(char *dest, const char *src, int to_free)$/;"	f
+ft_strequ	srcs/strings/ft_strequ.c	/^int		ft_strequ(const char *s1, const char *s2)$/;"	f
+ft_striter	srcs/strings/ft_striter.c	/^void	ft_striter(char *s, void (*f)(char *))$/;"	f
+ft_striteri	srcs/strings/ft_striteri.c	/^void	ft_striteri(char *s, void (*f)(unsigned int, char *))$/;"	f
+ft_strjoin	srcs/strings/ft_strjoin.c	/^char	*ft_strjoin(char const *s1, char const *s2)$/;"	f
+ft_strjoinf	srcs/strings/ft_strjoinf.c	/^char	*ft_strjoinf(char *s1, char *s2, int to_free)$/;"	f
+ft_strjoinfree	srcs/strings/get_next_line.c	/^static char	*ft_strjoinfree(char *str, char *str2)$/;"	f	file:
+ft_strlcat	srcs/strings/ft_strlcat.c	/^size_t		ft_strlcat(char *dst, const char *src, size_t size)$/;"	f
+ft_strlen	srcs/strings/ft_strlen.c	/^size_t		ft_strlen(char *str)$/;"	f
+ft_strmap	srcs/strings/ft_strmap.c	/^char	*ft_strmap(char const *s, char (*f)(char))$/;"	f
+ft_strmapi	srcs/strings/ft_strmapi.c	/^char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))$/;"	f
+ft_strnbc	srcs/strings/ft_strnbc.c	/^int		ft_strnbc(char *str, char c)$/;"	f
+ft_strnbci	srcs/strings/ft_strnbci.c	/^int		ft_strnbci(char const *s, char c, int i)$/;"	f
+ft_strncat	srcs/strings/ft_strncat.c	/^char		*ft_strncat(char *s1, const char *s2, size_t n)$/;"	f
+ft_strnccat	srcs/strings/ft_strnccat.c	/^char		*ft_strnccat(char *s1, const char *s2, size_t n, char c)$/;"	f
+ft_strncmp	srcs/strings/ft_strncmp.c	/^int		ft_strncmp(const char *s1, const char *s2, size_t n)$/;"	f
+ft_strncpy	srcs/strings/ft_strncpy.c	/^char		*ft_strncpy(char *dst, const char *src, size_t len)$/;"	f
+ft_strncpyi_buf	srcs/output/ft_printf/ft_strncpyi.c	/^void	ft_strncpyi_buf(t_env *env, unsigned char src[], int *index, int n)$/;"	f
+ft_strncpyi_tmp	srcs/output/ft_printf/ft_strncpyi.c	/^void	ft_strncpyi_tmp(t_env *env, unsigned char src[], int *index, int n)$/;"	f
+ft_strncpyi_wbuf	srcs/output/ft_printf/ft_strncpyi.c	/^void	ft_strncpyi_wbuf(t_env *env, unsigned char src[], int *index, int n)$/;"	f
+ft_strndup	srcs/strings/ft_strndup.c	/^char	*ft_strndup(const char *src, int n)$/;"	f
+ft_strnequ	srcs/strings/ft_strnequ.c	/^int		ft_strnequ(const char *s1, const char *s2, size_t n)$/;"	f
+ft_strnew	srcs/strings/ft_strnew.c	/^char	*ft_strnew(size_t size)$/;"	f
+ft_strnstr	srcs/strings/ft_strnstr.c	/^char		*ft_strnstr(const char *haystack, const char *needle, size_t len)$/;"	f
+ft_strrchr	srcs/strings/ft_strrchr.c	/^char	*ft_strrchr(const char *s, int c)$/;"	f
+ft_strrep	srcs/strings/ft_strrep.c	/^char		*ft_strrep(char *dst, const char *src)$/;"	f
+ft_strsplit	srcs/strings/ft_strsplit.c	/^char		**ft_strsplit(char const *s, char c)$/;"	f
+ft_strstr	srcs/strings/ft_strstr.c	/^char	*ft_strstr(const char *haystack, const char *needle)$/;"	f
+ft_strsub	srcs/strings/ft_strsub.c	/^char	*ft_strsub(char const *s, unsigned int beg, size_t len)$/;"	f
+ft_strsubf	srcs/strings/ft_strsubf.c	/^char	*ft_strsubf(char const *s, unsigned int beg, size_t len, char *to_free)$/;"	f
+ft_strtabdel	srcs/memory/ft_strtabdel.c	/^void		ft_strtabdel(char ***tab)$/;"	f
+ft_strtrim	srcs/strings/ft_strtrim.c	/^char		*ft_strtrim(char const *s)$/;"	f
+ft_swap	srcs/numbers/ft_swap.c	/^void	ft_swap(int *a, int *b)$/;"	f
+ft_swap4v	srcs/vectors_matrices/ft_swap4v.c	/^void		ft_swap4v(t_4vect *v1, t_4vect *v2)$/;"	f
+ft_swapd	srcs/numbers/ft_swapd.c	/^void		ft_swapd(double *a, double *b)$/;"	f
+ft_tolower	srcs/chars/ft_tolower.c	/^int		ft_tolower(int c)$/;"	f
+ft_toupper	srcs/chars/ft_toupper.c	/^int		ft_toupper(int c)$/;"	f
+ft_treeadd	srcs/lists/ft_treeadd.c	/^void	ft_treeadd(t_lbtree **tree, void *content,$/;"	f
+ft_treedo_order	srcs/lists/ft_treedo_order.c	/^void		ft_treedo_order(t_lbtree *tree, void (*f)(t_lbtree *node))$/;"	f
+ft_u	srcs/output/ft_printf/ft_u.c	/^void	ft_u(t_env *env, char *format, va_list ap)$/;"	f
+ft_uitoa	srcs/conversion/ft_uitoa.c	/^char	*ft_uitoa(unsigned int n)$/;"	f
+ft_uitoa_base_cust	srcs/output/ft_printf/itoa_cust_var.c	/^void	ft_uitoa_base_cust(t_env *env, unsigned char *str, unsigned int num)$/;"	f
+ft_ullnblen	srcs/output/ft_printf/nblen.c	/^int		ft_ullnblen(unsigned long long num, int base)$/;"	f
+ft_ulltoa_base_cust	srcs/output/ft_printf/itoa_cust_var.c	/^void	ft_ulltoa_base_cust(t_env *env, unsigned char *s, unsigned long long n)$/;"	f
+ft_ultoa_base_cust	srcs/output/ft_printf/itoa_cust_var.c	/^void	ft_ultoa_base_cust(t_env *env, unsigned char *s, unsigned long int num)$/;"	f
+ft_unblen	srcs/output/ft_printf/nblen.c	/^int		ft_unblen(unsigned int num, int base)$/;"	f
+ft_unsh	srcs/output/ft_printf/getarg_uns.c	/^void	ft_unsh(t_env *env, va_list ap)$/;"	f
+ft_unshh	srcs/output/ft_printf/getarg_uns.c	/^void	ft_unshh(t_env *env, va_list ap)$/;"	f
+ft_unsj	srcs/output/ft_printf/getarg_uns.c	/^void	ft_unsj(t_env *env, va_list ap)$/;"	f
+ft_unsl	srcs/output/ft_printf/getarg_uns.c	/^void	ft_unsl(t_env *env, va_list ap)$/;"	f
+ft_unsll	srcs/output/ft_printf/getarg_uns.c	/^void	ft_unsll(t_env *env, va_list ap)$/;"	f
+ft_unsnone	srcs/output/ft_printf/getarg_nomod.c	/^void	ft_unsnone(t_env *env, va_list ap)$/;"	f
+ft_unsz	srcs/output/ft_printf/getarg_nomod.c	/^void	ft_unsz(t_env *env, va_list ap)$/;"	f
+ft_x	srcs/output/ft_printf/ft_x.c	/^void	ft_x(t_env *env, char *format, va_list ap)$/;"	f
+ftp_abs	srcs/output/ft_printf/ftp_abs.c	/^int		ftp_abs(int n)$/;"	f
+ftp_isalpha	srcs/output/ft_printf/ftp_isalpha.c	/^int		ftp_isalpha(int c)$/;"	f
+ftp_isdigit	srcs/output/ft_printf/ftp_isdigit.c	/^int		ftp_isdigit(int c)$/;"	f
+ftp_maxint	srcs/output/ft_printf/ftp_maxint.c	/^int		ftp_maxint(int a, int b)$/;"	f
+ftp_nblen	srcs/output/ft_printf/ftp_nblen.c	/^int		ftp_nblen(int n, int base)$/;"	f
+ftp_strcmp	srcs/output/ft_printf/ftp_strcmp.c	/^int		ftp_strcmp(const char *s1, const char *s2)$/;"	f
+ftp_strcstr	srcs/output/ft_printf/ftp_strcstr.c	/^int		ftp_strcstr(char *str, char *chars)$/;"	f
+ftp_strequ	srcs/output/ft_printf/ftp_strequ.c	/^int		ftp_strequ(const char *s1, const char *s2)$/;"	f
+ftp_strlen	srcs/output/ft_printf/ftp_strlen.c	/^size_t		ftp_strlen(char *str)$/;"	f
+ftp_strncmp	srcs/output/ft_printf/ftp_strncmp.c	/^int		ftp_strncmp(const char *s1, const char *s2, size_t n)$/;"	f
+ftp_strnequ	srcs/output/ft_printf/ftp_strnequ.c	/^int		ftp_strnequ(const char *s1, const char *s2, size_t n)$/;"	f
+ftp_toupper	srcs/output/ft_printf/ftp_toupper.c	/^int		ftp_toupper(int c)$/;"	f
+get_next_line	srcs/strings/get_next_line.c	/^int			get_next_line(const int fd, char **line)$/;"	f
+i	includes/ft_printf.h	/^	int						i;$/;"	m	union:u_type
+i	includes/ft_printf.h	/^	int				i;$/;"	m	struct:s_env
+id	includes/ft_printf.h	/^	char			id;$/;"	m	struct:s_env
+index	includes/ft_printf.h	/^	int				index;$/;"	m	struct:s_env
+inner_gnl	srcs/strings/get_next_line.c	/^static int	inner_gnl(int fd, long int *ret, char **remain, char **buffer)$/;"	f	file:
+is_special	srcs/conversion/ft_atoi.c	/^static int	is_special(char c)$/;"	f	file:
+is_special_char	srcs/strings/ft_strtrim.c	/^static int	is_special_char(char c)$/;"	f	file:
+j	includes/ft_printf.h	/^	int				j;$/;"	m	struct:s_env
+k	includes/ft_printf.h	/^	int				k;$/;"	m	struct:s_env
+left	includes/libft.h	/^	struct s_lbtree	*left;$/;"	m	struct:s_lbtree	typeref:struct:s_lbtree::s_lbtree
+len	includes/ft_printf.h	/^	int				len;$/;"	m	struct:s_env
+li	includes/ft_printf.h	/^	long int				li;$/;"	m	union:u_type
+lli	includes/ft_printf.h	/^	long long int			lli;$/;"	m	union:u_type
+mask_len	includes/ft_printf.h	/^	int				mask_len;$/;"	m	struct:s_env
+maxi	includes/ft_printf.h	/^	intmax_t				maxi;$/;"	m	union:u_type
+mng_nullarg	srcs/output/ft_printf/mng_nullarg.c	/^void		mng_nullarg(t_env *env)$/;"	f
+mod	includes/ft_printf.h	/^	int				mod;$/;"	m	struct:s_env
+neg	includes/ft_printf.h	/^	int				neg;$/;"	m	struct:s_env
+next	includes/libft.h	/^	struct s_intlist	*next;$/;"	m	struct:s_intlist	typeref:struct:s_intlist::s_intlist
+next	includes/libft.h	/^	struct s_list	*next;$/;"	m	struct:s_list	typeref:struct:s_list::s_list
+next	includes/libft.h	/^	struct s_strlist	*next;$/;"	m	struct:s_strlist	typeref:struct:s_strlist::s_strlist
+nullarg	includes/ft_printf.h	/^	int				nullarg;$/;"	m	struct:s_env
+output	includes/ft_printf.h	/^	int				output;$/;"	m	struct:s_env
+padding	includes/get_next_line.h	/^	char			padding[4];$/;"	m	struct:s_file
+pindex	includes/ft_printf.h	/^	int				pindex;$/;"	m	struct:s_env
+prec	includes/ft_printf.h	/^	int				prec;$/;"	m	struct:s_env
+prev	includes/ft_printf.h	/^	int				prev;$/;"	m	struct:s_env
+prev	includes/libft.h	/^	struct s_intlist	*prev;$/;"	m	struct:s_intlist	typeref:struct:s_intlist::s_intlist
+prev	includes/libft.h	/^	struct s_list	*prev;$/;"	m	struct:s_list	typeref:struct:s_list::s_list
+prev	includes/libft.h	/^	struct s_strlist	*prev;$/;"	m	struct:s_strlist	typeref:struct:s_strlist::s_strlist
+r	includes/ft_printf.h	/^	int				r;$/;"	m	struct:s_env
+right	includes/libft.h	/^	struct s_lbtree	*right;$/;"	m	struct:s_lbtree	typeref:struct:s_lbtree::s_lbtree
+rindex	includes/ft_printf.h	/^	int				rindex;$/;"	m	struct:s_env
+s	includes/ft_printf.h	/^	unsigned char			*s;$/;"	m	union:u_type
+s_4fvect	includes/libft.h	/^typedef	struct	s_4fvect$/;"	s
+s_4ivect	includes/libft.h	/^typedef struct	s_4ivect$/;"	s
+s_4vect	includes/libft.h	/^typedef	struct	s_4vect$/;"	s
+s_env	includes/ft_printf.h	/^typedef struct	s_env$/;"	s
+s_file	includes/get_next_line.h	/^typedef struct		s_file$/;"	s
+s_intlist	includes/libft.h	/^typedef struct	s_intlist$/;"	s
+s_lbtree	includes/libft.h	/^typedef struct	s_lbtree$/;"	s
+s_list	includes/libft.h	/^typedef struct	s_list$/;"	s
+s_strlist	includes/libft.h	/^typedef struct	s_strlist$/;"	s
+si	includes/ft_printf.h	/^	short int				si;$/;"	m	union:u_type
+specs	includes/ft_printf.h	/^	int				specs;$/;"	m	struct:s_env
+str	includes/ft_printf.h	/^	unsigned char	*str;$/;"	m	struct:s_env
+str	includes/libft.h	/^	char				*str;$/;"	m	struct:s_strlist
+t_4fvect	includes/libft.h	/^}				t_4fvect;$/;"	t	typeref:struct:s_4fvect
+t_4ivect	includes/libft.h	/^}				t_4ivect;$/;"	t	typeref:struct:s_4ivect
+t_4vect	includes/libft.h	/^}				t_4vect;$/;"	t	typeref:struct:s_4vect
+t_env	includes/ft_printf.h	/^}				t_env;$/;"	t	typeref:struct:s_env
+t_file	includes/get_next_line.h	/^}					t_file;$/;"	t	typeref:struct:s_file
+t_ilist	includes/libft.h	/^}				t_ilist;$/;"	t	typeref:struct:s_intlist
+t_lbtree	includes/libft.h	/^}				t_lbtree;$/;"	t	typeref:struct:s_lbtree
+t_list	includes/libft.h	/^}				t_list;$/;"	t	typeref:struct:s_list
+t_slist	includes/libft.h	/^}				t_slist;$/;"	t	typeref:struct:s_strlist
+tmpbuf	includes/ft_printf.h	/^	unsigned char	tmpbuf[BUFF_SIZE];$/;"	m	struct:s_env
+u_type	includes/ft_printf.h	/^union			u_type$/;"	u
+uc	includes/ft_printf.h	/^	unsigned char			uc;$/;"	m	union:u_type
+ui	includes/ft_printf.h	/^	unsigned int			ui;$/;"	m	union:u_type
+uli	includes/ft_printf.h	/^	long unsigned int		uli;$/;"	m	union:u_type
+ulli	includes/ft_printf.h	/^	unsigned long long int	ulli;$/;"	m	union:u_type
+umaxi	includes/ft_printf.h	/^	uintmax_t				umaxi;$/;"	m	union:u_type
+val	includes/libft.h	/^	int					val;$/;"	m	struct:s_intlist
+w	includes/libft.h	/^	double	w;$/;"	m	struct:s_4vect
+w	includes/libft.h	/^	float	w;$/;"	m	struct:s_4fvect
+w	includes/libft.h	/^	int		w;$/;"	m	struct:s_4ivect
+wbuf	includes/ft_printf.h	/^	unsigned char	wbuf[BUFF_SIZE];$/;"	m	struct:s_env
+wc	includes/ft_printf.h	/^	wchar_t					wc;$/;"	m	union:u_type
+wcs	includes/ft_printf.h	/^	wchar_t					*wcs;$/;"	m	union:u_type
+wtmp	includes/ft_printf.h	/^	unsigned char	wtmp[5];$/;"	m	struct:s_env
+x	includes/libft.h	/^	double	x;$/;"	m	struct:s_4vect
+x	includes/libft.h	/^	float	x;$/;"	m	struct:s_4fvect
+x	includes/libft.h	/^	int		x;$/;"	m	struct:s_4ivect
+y	includes/libft.h	/^	double	y;$/;"	m	struct:s_4vect
+y	includes/libft.h	/^	float	y;$/;"	m	struct:s_4fvect
+y	includes/libft.h	/^	int		y;$/;"	m	struct:s_4ivect
+z	includes/libft.h	/^	double	z;$/;"	m	struct:s_4vect
+z	includes/libft.h	/^	float	z;$/;"	m	struct:s_4fvect
+z	includes/libft.h	/^	int		z;$/;"	m	struct:s_4ivect
+zi	includes/ft_printf.h	/^	size_t					zi;$/;"	m	union:u_type
